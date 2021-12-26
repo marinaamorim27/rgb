@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-a3ea60e7841916fa53bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "external/gtest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-external.gtest-Debug-fb71a73ff8b98e587f66.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/gtest"
+				},
+				{
+					"build" : "external/gtest/googletest",
+					"jsonFile" : "directory-external.gtest.googletest-Debug-f1df8b2ee3bd67246c07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/gtest/googletest",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "progp1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "color_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-color_test-Debug-5683fd21b6b7e11fa1f9.json",
+					"name" : "color_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "docs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-docs-Debug-057a41a164c1e565e80b.json",
+					"name" : "docs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@b6daf43c893e1843d14a",
+					"jsonFile" : "target-gtest-Debug-d2e3002fc0a32d8246d0.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@b6daf43c893e1843d14a",
+					"jsonFile" : "target-gtest_main-Debug-95c790850ce285baea1b.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_diff::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_diff-Debug-7c265ce8b276a3bc73c8.json",
+					"name" : "image_diff",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_dump::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_dump-Debug-7682f5b165e545678009.json",
+					"name" : "image_dump",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "image_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-image_test-Debug-9f9f5fe4eba82c9fb0f4.json",
+					"name" : "image_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgb::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgb-Debug-ad8b2e833f79ca051f63.json",
+					"name" : "rgb",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_script::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_script-Debug-6fff46f1408dab5c07f8.json",
+					"name" : "run_script",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "script_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-script_test-Debug-308d48edb6eb3233f7c4.json",
+					"name" : "script_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/marina/Desktop/Faculdade/2 ano/labprog/exercicios21/trabalho/progp1/cmake-build-debug",
+		"source" : "/home/marina/Desktop/Faculdade/2 ano/labprog/exercicios21/trabalho/progp1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
